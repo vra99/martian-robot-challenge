@@ -1,0 +1,19 @@
+{
+  "name": "tech-challenge",
+  "repository": "git@github.com:vra99/martian-robot-challenge.git",
+  "description": "Tech challenge for martian-robots",
+  "type": "module",
+  "main": "game.js",
+  "scripts": {
+    "start": "node game.js"
+  },
+  "author": "Victor Alvarez",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "figlet": "^1.2.4",
+    "mocha": "^5.0.0",
+    "prettier": "2.7.1",
+    "underscore": "^1.8.3"
+  }
+}
