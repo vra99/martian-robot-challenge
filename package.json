@@ -4,13 +4,27 @@
   "type": "module",
   "main": "game.js",
   "scripts": {
-    "start": "node game.js"
+    "start": "node game.js",
+    "test": "mocha --compilers js:babel-core/register __tests__/*.js"
   },
   "author": "Victor Alvarez",
   "license": "MIT",
   "devDependencies": {
     "figlet": "^1.2.4",
+    "mocha": "^5.2.0",
     "prettier": "2.7.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "babel-core": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  },
+  "babel": {
+    "presets": [
+      "stage-3",
+      "latest"
+    ]
   }
 }

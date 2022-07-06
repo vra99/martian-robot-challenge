@@ -1,5 +1,6 @@
 # How to run it:
-Ensure you have Node.js installed and run the command ```npm start```, then you can follow the steps in the terminal to play the game.
+
+Ensure you have Node.js installed and run the command `npm start`, then you can follow the steps in the terminal to play the game.
 
 ## The Problem
 
